@@ -49,11 +49,6 @@
         "url": ""
       },
 
-      "cancelButton": {
-        "enabled": true,
-        "text": "بستن"
-      },
-
       "animation": {
         "enabled": true,
         "type": "confetti",
