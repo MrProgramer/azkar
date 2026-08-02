@@ -127,6 +127,46 @@
         "url": "https://t.me/YourChannel"
       }
     }
+    ,
+    {
+  "id": "ramadan_2027",
+  "enabled": true,
+  "priority": 95,
+  "type": "celebration",
+  "showOnce": true,
+
+  "startDate": "2027-02-07T00:00:00Z",
+  "endDate": "2027-03-09T23:59:59Z",
+
+  "title": "🌙 ماه مبارک رمضان",
+
+  "message": "ماه مبارک رمضان فرا رسید. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم. اوقات شرعی شهر خود را هر روز بررسی کنید و ما را از دعای خیرتان فراموش نکنید.",
+
+  "image": "https://yourdomain.com/images/ramadan.jpg",
+
+  "icon": "moon",
+
+  "button": {
+    "enabled": true,
+    "text": "آمین 🤲",
+    "url": ""
+  },
+
+  "cancelButton": {
+    "enabled": true,
+    "text": "بستن"
+  },
+
+  "animation": {
+    "enabled": true,
+    "type": "confetti",
+    "duration": 4500
+  },
+
+  "sound": {
+    "enabled": true
+  }
+}
   ],
 
   "banner": {
