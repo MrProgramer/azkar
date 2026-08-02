@@ -24,29 +24,29 @@
 
   "messages": [
     {
-      "id": "msg001",
-      "enabled": false,
-      "priority": 100,
+      "id": "test001",
+      "enabled": true,
+      "priority": 999,
 
       "type": "celebration",
 
-      "showOnce": true,
+      "showOnce": false,
 
-      "startDate": "2026-08-01T00:00:00Z",
-      "endDate": "2026-08-10T23:59:59Z",
+      "startDate": "2026-01-01T00:00:00Z",
+      "endDate": "2035-12-31T23:59:59Z",
 
-      "title": "عید مبارک",
+      "title": "🌙 ماه مبارک رمضان",
 
-      "message": "تیم برنامه اوقات شرعی این مناسبت را به شما تبریک می‌گوید.",
+      "message": "ماه مبارک رمضان فرا رسید. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم. اوقات شرعی شهر خود را هر روز بررسی کنید و ما را از دعای خیرتان فراموش نکنید.",
 
       "image": "",
 
-      "icon": "celebration",
+      "icon": "moon",
 
       "button": {
         "enabled": true,
-        "text": "مشاهده",
-        "url": "https://t.me/YourChannel"
+        "text": "آمین 🤲",
+        "url": ""
       },
 
       "cancelButton": {
@@ -61,112 +61,9 @@
       },
 
       "sound": {
-        "enabled": true
-      }
-    },
-
-    {
-      "id": "msg002",
-      "enabled": false,
-      "priority": 90,
-
-      "type": "popup",
-
-      "showOnce": true,
-
-      "startDate": "",
-      "endDate": "",
-
-      "title": "اطلاعیه",
-
-      "message": "نسخه جدید برنامه منتشر شد.",
-
-      "image": "",
-
-      "icon": "info",
-
-      "button": {
-        "enabled": true,
-        "text": "بروزرسانی",
-        "url": "https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
-      },
-
-      "cancelButton": {
-        "enabled": true,
-        "text": "بعداً"
-      },
-
-      "animation": {
-        "enabled": true,
-        "type": "scale"
-      },
-
-      "sound": {
         "enabled": false
       }
-    },
-
-    {
-      "id": "msg003",
-      "enabled": false,
-      "priority": 80,
-
-      "type": "telegram",
-
-      "showOnce": true,
-
-      "title": "کانال تلگرام",
-
-      "message": "برای اطلاع از بروزرسانی‌ها عضو کانال شوید.",
-
-      "image": "",
-
-      "button": {
-        "enabled": true,
-        "text": "عضویت",
-        "url": "https://t.me/YourChannel"
-      }
     }
-    ,
-    {
-  "id": "ramadan_2027",
-  "enabled": true,
-  "priority": 95,
-  "type": "celebration",
-  "showOnce": true,
-
-  "startDate": "2027-02-07T00:00:00Z",
-  "endDate": "2027-03-09T23:59:59Z",
-
-  "title": "🌙 ماه مبارک رمضان",
-
-  "message": "ماه مبارک رمضان فرا رسید. از خداوند متعال قبولی طاعات و عبادات شما را مسئلت داریم. اوقات شرعی شهر خود را هر روز بررسی کنید و ما را از دعای خیرتان فراموش نکنید.",
-
-  "image": "https://yourdomain.com/images/ramadan.jpg",
-
-  "icon": "moon",
-
-  "button": {
-    "enabled": true,
-    "text": "آمین 🤲",
-    "url": ""
-  },
-
-  "cancelButton": {
-    "enabled": true,
-    "text": "بستن"
-  },
-
-  "animation": {
-    "enabled": true,
-    "type": "confetti",
-    "duration": 4500
-  },
-
-  "sound": {
-    "enabled": true
-  }
-}
   ],
 
   "banner": {
