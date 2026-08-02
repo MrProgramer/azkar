@@ -1,0 +1,70 @@
+{
+  "app": {
+    "enabled": true,
+    "maintenance": false,
+    "maintenanceTitle": "برنامه موقتاً غیرفعال است",
+    "maintenanceMessage": "لطفاً چند ساعت دیگر دوباره تلاش کنید."
+  },
+
+  "version": {
+    "latestVersion": 25,
+    "minimumVersion": 20,
+    "forceUpdate": false,
+    "updateTitle": "نسخه جدید منتشر شده",
+    "updateMessage": "برای ادامه استفاده از برنامه باید نسخه جدید را نصب کنید.",
+    "updateButton": "آپدیت",
+    "updateUrl": "https://cafebazaar.ir/app/your.package.name"
+  },
+
+  "popup": {
+    "enabled": true,
+    "showOnce": true,
+    "id": 1001,
+    "title": "اطلاعیه",
+    "message": "کانال تلگرام ما را دنبال کنید.",
+    "image": "https://raw.githubusercontent.com/username/repo/main/images/banner.jpg",
+    "buttonText": "عضویت",
+    "buttonUrl": "https://t.me/YourChannel",
+    "cancelable": true
+  },
+
+  "banner": {
+    "enabled": true,
+    "title": "نسخه جدید اضافه شد",
+    "text": "برای مشاهده امکانات جدید اینجا لمس کنید.",
+    "image": "https://raw.githubusercontent.com/username/repo/main/images/banner2.jpg",
+    "url": "https://example.com"
+  },
+
+  "notification": {
+    "enabled": true,
+    "title": "ذکر امروز",
+    "message": "امروز این ذکر را فراموش نکنید.",
+    "image": "https://raw.githubusercontent.com/username/repo/main/images/notif.jpg",
+    "url": "https://t.me/YourChannel"
+  },
+
+  "links": {
+    "telegram": "https://t.me/YourChannel",
+    "instagram": "https://instagram.com/YourPage",
+    "website": "https://example.com",
+    "support": "https://t.me/SupportBot"
+  },
+
+  "ads": {
+    "enabled": false,
+    "image": "",
+    "title": "",
+    "text": "",
+    "buttonText": "",
+    "url": ""
+  },
+
+  "features": {
+    "azan": true,
+    "qibla": true,
+    "tasbih": true,
+    "calendar": true,
+    "radio": false
+  }
+}
