@@ -1,70 +1,57 @@
 {
-  "app": {
-    "enabled": true,
-    "maintenance": false,
-    "maintenanceTitle": "برنامه موقتاً غیرفعال است",
-    "maintenanceMessage": "لطفاً چند ساعت دیگر دوباره تلاش کنید."
+  "configVersion": 1,
+
+  "maintenance": {
+    "enabled": false,
+    "title": "برنامه موقتاً غیرفعال است",
+    "message": "لطفاً بعداً دوباره تلاش کنید.",
+    "buttonText": "خروج"
   },
 
-  "version": {
-    "latestVersion": 25,
-    "minimumVersion": 20,
-    "forceUpdate": false,
-    "updateTitle": "نسخه جدید منتشر شده",
-    "updateMessage": "برای ادامه استفاده از برنامه باید نسخه جدید را نصب کنید.",
-    "updateButton": "آپدیت",
-    "updateUrl": "https://cafebazaar.ir/app/your.package.name"
+  "forceUpdate": {
+    "enabled": false,
+    "minVersion": 10,
+    "title": "آپدیت اجباری",
+    "message": "برای ادامه استفاده باید برنامه را بروزرسانی کنید.",
+    "buttonText": "آپدیت",
+    "url": "https://cafebazaar.ir/app/your.package.name"
+  },
+
+  "update": {
+    "enabled": false,
+    "latestVersion": 15,
+    "title": "نسخه جدید موجود است",
+    "message": "نسخه جدید با امکانات بیشتر منتشر شده است.",
+    "buttonText": "دریافت",
+    "buttonCancel": "بعداً",
+    "url": "https://cafebazaar.ir/app/your.package.name"
   },
 
   "popup": {
-    "enabled": true,
+    "enabled": false,
+    "id": 1,
     "showOnce": true,
-    "id": 1001,
     "title": "اطلاعیه",
     "message": "کانال تلگرام ما را دنبال کنید.",
-    "image": "https://raw.githubusercontent.com/username/repo/main/images/banner.jpg",
+    "image": "https://example.com/banner.jpg",
     "buttonText": "عضویت",
     "buttonUrl": "https://t.me/YourChannel",
     "cancelable": true
   },
 
   "banner": {
-    "enabled": true,
-    "title": "نسخه جدید اضافه شد",
-    "text": "برای مشاهده امکانات جدید اینجا لمس کنید.",
-    "image": "https://raw.githubusercontent.com/username/repo/main/images/banner2.jpg",
+    "enabled": false,
+    "title": "خبر جدید",
+    "message": "برای مشاهده اینجا لمس کنید.",
+    "image": "https://example.com/banner2.jpg",
     "url": "https://example.com"
   },
 
   "notification": {
-    "enabled": true,
+    "enabled": false,
     "title": "ذکر امروز",
     "message": "امروز این ذکر را فراموش نکنید.",
-    "image": "https://raw.githubusercontent.com/username/repo/main/images/notif.jpg",
-    "url": "https://t.me/YourChannel"
-  },
-
-  "links": {
-    "telegram": "https://t.me/YourChannel",
-    "instagram": "https://instagram.com/YourPage",
-    "website": "https://example.com",
-    "support": "https://t.me/SupportBot"
-  },
-
-  "ads": {
-    "enabled": false,
-    "image": "",
-    "title": "",
-    "text": "",
-    "buttonText": "",
-    "url": ""
-  },
-
-  "features": {
-    "azan": true,
-    "qibla": true,
-    "tasbih": true,
-    "calendar": true,
-    "radio": false
+    "image": "https://example.com/notif.jpg",
+    "url": "https://example.com"
   }
 }
