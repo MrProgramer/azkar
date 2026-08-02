@@ -1,57 +1,165 @@
 {
   "configVersion": 1,
+  "lastUpdate": "2026-08-02T10:00:00Z",
+  "checkIntervalHours": 6,
 
-  "maintenance": {
-    "enabled": false,
-    "title": "برنامه موقتاً غیرفعال است",
-    "message": "لطفاً بعداً دوباره تلاش کنید.",
-    "buttonText": "خروج"
+  "app": {
+    "enabled": true,
+    "maintenance": false,
+    "maintenanceTitle": "",
+    "maintenanceMessage": "",
+    "maintenanceImage": "",
+    "maintenanceButtonText": "خروج"
   },
 
-  "forceUpdate": {
-    "enabled": false,
-    "minVersion": 10,
-    "title": "آپدیت اجباری",
-    "message": "برای ادامه استفاده باید برنامه را بروزرسانی کنید.",
-    "buttonText": "آپدیت",
-    "url": "https://cafebazaar.ir/app/your.package.name"
+  "version": {
+    "currentLatestVersion": 1,
+    "minimumSupportedVersion": 1,
+    "forceUpdate": false,
+    "title": "",
+    "message": "",
+    "buttonText": "بروزرسانی",
+    "storeUrl": "https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
   },
 
-  "update": {
-    "enabled": false,
-    "latestVersion": 15,
-    "title": "نسخه جدید موجود است",
-    "message": "نسخه جدید با امکانات بیشتر منتشر شده است.",
-    "buttonText": "دریافت",
-    "buttonCancel": "بعداً",
-    "url": "https://cafebazaar.ir/app/your.package.name"
-  },
+  "messages": [
+    {
+      "id": "msg001",
+      "enabled": false,
+      "priority": 100,
 
-  "popup": {
-    "enabled": false,
-    "id": 1,
-    "showOnce": true,
-    "title": "اطلاعیه",
-    "message": "کانال تلگرام ما را دنبال کنید.",
-    "image": "https://example.com/banner.jpg",
-    "buttonText": "عضویت",
-    "buttonUrl": "https://t.me/YourChannel",
-    "cancelable": true
-  },
+      "type": "celebration",
+
+      "showOnce": true,
+
+      "startDate": "2026-08-01T00:00:00Z",
+      "endDate": "2026-08-10T23:59:59Z",
+
+      "title": "عید مبارک",
+
+      "message": "تیم برنامه اوقات شرعی این مناسبت را به شما تبریک می‌گوید.",
+
+      "image": "",
+
+      "icon": "celebration",
+
+      "button": {
+        "enabled": true,
+        "text": "مشاهده",
+        "url": "https://t.me/YourChannel"
+      },
+
+      "cancelButton": {
+        "enabled": true,
+        "text": "بستن"
+      },
+
+      "animation": {
+        "enabled": true,
+        "type": "confetti",
+        "duration": 4500
+      },
+
+      "sound": {
+        "enabled": true
+      }
+    },
+
+    {
+      "id": "msg002",
+      "enabled": false,
+      "priority": 90,
+
+      "type": "popup",
+
+      "showOnce": true,
+
+      "startDate": "",
+      "endDate": "",
+
+      "title": "اطلاعیه",
+
+      "message": "نسخه جدید برنامه منتشر شد.",
+
+      "image": "",
+
+      "icon": "info",
+
+      "button": {
+        "enabled": true,
+        "text": "بروزرسانی",
+        "url": "https://cafebazaar.ir/app/YOUR_PACKAGE_NAME"
+      },
+
+      "cancelButton": {
+        "enabled": true,
+        "text": "بعداً"
+      },
+
+      "animation": {
+        "enabled": true,
+        "type": "scale"
+      },
+
+      "sound": {
+        "enabled": false
+      }
+    },
+
+    {
+      "id": "msg003",
+      "enabled": false,
+      "priority": 80,
+
+      "type": "telegram",
+
+      "showOnce": true,
+
+      "title": "کانال تلگرام",
+
+      "message": "برای اطلاع از بروزرسانی‌ها عضو کانال شوید.",
+
+      "image": "",
+
+      "button": {
+        "enabled": true,
+        "text": "عضویت",
+        "url": "https://t.me/YourChannel"
+      }
+    }
+  ],
 
   "banner": {
     "enabled": false,
-    "title": "خبر جدید",
-    "message": "برای مشاهده اینجا لمس کنید.",
-    "image": "https://example.com/banner2.jpg",
-    "url": "https://example.com"
+    "title": "",
+    "message": "",
+    "image": "",
+    "url": ""
   },
 
   "notification": {
     "enabled": false,
-    "title": "ذکر امروز",
-    "message": "امروز این ذکر را فراموش نکنید.",
-    "image": "https://example.com/notif.jpg",
-    "url": "https://example.com"
+    "title": "",
+    "message": "",
+    "image": "",
+    "url": ""
+  },
+
+  "features": {
+    "prayerTimes": true,
+    "adhan": true,
+    "qibla": true,
+    "calendar": true,
+    "tasbih": true,
+    "radio": true,
+    "dailyPrayer": true
+  },
+
+  "links": {
+    "telegram": "",
+    "instagram": "",
+    "website": "",
+    "support": "",
+    "privacyPolicy": ""
   }
 }
